@@ -44,11 +44,14 @@ Search4MutationSets-BN-Ensembles/
 *data/bundle-exactpkn32-nocyclic-globalfps.zip* contains the ensemble used in quick tests AND *.bnet* files are extracted automatically on run
 
 ## Methods Included
-> **NMCS** — Nested Monte Carlo Search  
-> **LNMCS** — Lazy NMCS
-> **NRPA** — Policy adaptation nested rollout  
-> **GNRPA** — NRPA with guidance/bias terms
-> **BILNMCS** — Bi-Lazy NMCS  
+>> **NMCS** — Nested Monte Carlo Search  
+>> **LNMCS** — Lazy NMCS
+>
+>> **BILNMCS** — Bi-Lazy NMCS
+> 
+>> **NRPA** — Policy adaptation nested rollout  
+>> **GNRPA** — NRPA with guidance/bias terms
+ 
  
 ## 📍 
 This work was conducted at LAMSADE, Université Paris-Dauphine. A detailed manuscript and results is available upon request.
