@@ -1,4 +1,0 @@
-algorithm,ensemble_size,depth,timeout,mean_score,std_score,mean_time,best_score,best_set
-NMCS,50,7,10,0.628,0.0,10.539171934127808,0.628,"[('AKT1', True), ('AKT2', True), ('CTNNB1', True), ('DKK1', False), ('GF', False), ('ZEB1', True), ('miR34', False)]"
-LNMCS,50,7,10,0.4348,0.0,10.012847900390625,0.4348,"[('AKT2', True), ('CTNNB1', True), ('Metastasis', True), ('miR203', True), ('miR34', True), ('p21', True), ('p63', False)]"
-NRPA,50,7,10,0.6216,0.0,10.220600128173828,0.6216,"[('AKT1', True), ('ERK', True), ('SNAI2', True), ('TGFbeta', True), ('TWIST1', True), ('miR203', True), ('miR34', False)]"

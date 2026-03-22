@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "resolved_ensemble_dir": "/Users/x.season/Documents/Project/cmcs/Monte-Carlo-Search-on-Boolean-Networks/data/WT_ensemble",
+    "n_available_networks": 1000,
+    "available_sizes": [
+      50,
+      1000
+    ],
+    "requested_sizes": [
+      1000
+    ],
+    "skipped_sizes": [],
+    "n_all_moves": 56,
+    "algorithms": [
+      "BILNMCS"
+    ],
+    "algorithm_configs": [
+      {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      }
+    ],
+    "main_total_budget": 2500,
+    "main_sims_per_model": null,
+    "fast_ensemble_size": 50,
+    "fast_sims_per_model": 5,
+    "validate_reps": 3,
+    "validate_sims_per_model": null,
+    "network_shuffle_seed": 2,
+    "seed_base": 12345
+  },
+  "summary": [
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "n_trials": 10,
+      "mean_validated_score": 0.7372555555555556,
+      "std_validated_score": 0.07697014091576412,
+      "mean_raw_search_score": 0.7442333333333334,
+      "mean_elapsed_sec": 60.356953425000015,
+      "mean_returned_size": 6.9,
+      "mean_total_simulated_trajectories": 296075.0,
+      "best_validated_score": 0.8797777777777777,
+      "best_mutation_set": [
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "DNAdamage",
+          false
+        ],
+        [
+          "ECMicroenv",
+          true
+        ],
+        [
+          "Migration",
+          true
+        ],
+        [
+          "NICD",
+          true
+        ],
+        [
+          "SNAI1",
+          true
+        ],
+        [
+          "SNAI2",
+          true
+        ]
+      ],
+      "best_trial": 8
+    }
+  ],
+  "trials": [
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 0,
+      "elapsed_sec": 60.716466958000005,
+      "raw_search_score": 0.7999999999999999,
+      "validated_score_mean": 0.6854444444444444,
+      "validated_score_std": 0.003446236093171257,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "AKT2",
+          true
+        ],
+        [
+          "CDH1",
+          false
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "TWIST1",
+          true
+        ],
+        [
+          "VIM",
+          false
+        ],
+        [
+          "miR203",
+          false
+        ],
+        [
+          "p53",
+          false
+        ]
+      ],
+      "total_simulated_trajectories": 248000,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 1,
+      "elapsed_sec": 60.15398866700001,
+      "raw_search_score": 0.8,
+      "validated_score_mean": 0.782,
+      "validated_score_std": 0.0030912061651651337,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "CDH1",
+          false
+        ],
+        [
+          "CDH2",
+          true
+        ],
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "NICD",
+          true
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "miR203",
+          true
+        ],
+        [
+          "p73",
+          false
+        ]
+      ],
+      "total_simulated_trajectories": 253000,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 2,
+      "elapsed_sec": 60.49688562500002,
+      "raw_search_score": 0.6589999999999999,
+      "validated_score_mean": 0.6590000000000001,
+      "validated_score_std": 0.005249338582674747,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "DKK1",
+          false
+        ],
+        [
+          "ERK",
+          true
+        ],
+        [
+          "Metastasis",
+          false
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "TGFbeta",
+          true
+        ],
+        [
+          "TWIST1",
+          true
+        ],
+        [
+          "p21",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 336250,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 3,
+      "elapsed_sec": 60.17854912500002,
+      "raw_search_score": 0.5959999999999999,
+      "validated_score_mean": 0.6224444444444442,
+      "validated_score_std": 0.00267129228448248,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "AKT1",
+          true
+        ],
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "Metastasis",
+          true
+        ],
+        [
+          "Migration",
+          false
+        ],
+        [
+          "miR203",
+          false
+        ],
+        [
+          "p21",
+          true
+        ],
+        [
+          "p63",
+          false
+        ]
+      ],
+      "total_simulated_trajectories": 339500,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 4,
+      "elapsed_sec": 60.412828875,
+      "raw_search_score": 0.8026666666666668,
+      "validated_score_mean": 0.8094444444444444,
+      "validated_score_std": 0.0017284832429004162,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "CDH1",
+          false
+        ],
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "DNAdamage",
+          false
+        ],
+        [
+          "Metastasis",
+          true
+        ],
+        [
+          "SNAI1",
+          true
+        ],
+        [
+          "SNAI2",
+          true
+        ],
+        [
+          "p21",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 300500,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 5,
+      "elapsed_sec": 60.19450312499998,
+      "raw_search_score": 0.6900000000000002,
+      "validated_score_mean": 0.6936666666666667,
+      "validated_score_std": 0.002325383281828471,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "AKT2",
+          true
+        ],
+        [
+          "CDH2",
+          true
+        ],
+        [
+          "DKK1",
+          true
+        ],
+        [
+          "ECMicroenv",
+          false
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "SNAI2",
+          true
+        ],
+        [
+          "TWIST1",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 307000,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 6,
+      "elapsed_sec": 60.433776084000044,
+      "raw_search_score": 0.764,
+      "validated_score_mean": 0.8052222222222221,
+      "validated_score_std": 0.003593547028621493,
+      "returned_size": 6,
+      "returned_set": [
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "DKK1",
+          true
+        ],
+        [
+          "DNAdamage",
+          false
+        ],
+        [
+          "ECMicroenv",
+          true
+        ],
+        [
+          "SNAI1",
+          true
+        ],
+        [
+          "p21",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 330500,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 7,
+      "elapsed_sec": 60.56783124999998,
+      "raw_search_score": 0.6953333333333335,
+      "validated_score_mean": 0.6827777777777779,
+      "validated_score_std": 0.0017497795275582273,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "AKT1",
+          true
+        ],
+        [
+          "CDH1",
+          false
+        ],
+        [
+          "CDH2",
+          true
+        ],
+        [
+          "DKK1",
+          false
+        ],
+        [
+          "Migration",
+          false
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "SNAI1",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 277000,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 8,
+      "elapsed_sec": 60.37821520800003,
+      "raw_search_score": 0.8836666666666668,
+      "validated_score_mean": 0.8797777777777777,
+      "validated_score_std": 0.0006849348892187899,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "CTNNB1",
+          true
+        ],
+        [
+          "DNAdamage",
+          false
+        ],
+        [
+          "ECMicroenv",
+          true
+        ],
+        [
+          "Migration",
+          true
+        ],
+        [
+          "NICD",
+          true
+        ],
+        [
+          "SNAI1",
+          true
+        ],
+        [
+          "SNAI2",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 295000,
+      "error": null
+    },
+    {
+      "algorithm": "BILNMCS",
+      "algorithm_config": {
+        "algorithm": "BILNMCS",
+        "level": 2,
+        "bilnmcs_b": 3,
+        "bilnmcs_r": 0.4,
+        "bilnmcs_e": 10
+      },
+      "algorithm_config_key": "{\"algorithm\": \"BILNMCS\", \"bilnmcs_b\": 3, \"bilnmcs_e\": 10, \"bilnmcs_r\": 0.4, \"level\": 2}",
+      "algo_level": 2,
+      "algo_bilnmcs_b": 3,
+      "algo_bilnmcs_r": 0.4,
+      "algo_bilnmcs_e": 10,
+      "ensemble_size": 1000,
+      "depth": 7,
+      "timeout_sec": 60.0,
+      "trial": 9,
+      "elapsed_sec": 60.03648933300008,
+      "raw_search_score": 0.7516666666666666,
+      "validated_score_mean": 0.7527777777777778,
+      "validated_score_std": 0.000628539361054692,
+      "returned_size": 7,
+      "returned_set": [
+        [
+          "DNAdamage",
+          false
+        ],
+        [
+          "GF",
+          true
+        ],
+        [
+          "Metastasis",
+          false
+        ],
+        [
+          "NICD",
+          true
+        ],
+        [
+          "SMAD",
+          true
+        ],
+        [
+          "TGFbeta",
+          true
+        ],
+        [
+          "ZEB2",
+          true
+        ]
+      ],
+      "total_simulated_trajectories": 274000,
+      "error": null
+    }
+  ]
+}

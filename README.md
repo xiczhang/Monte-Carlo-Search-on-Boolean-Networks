@@ -1,6 +1,6 @@
 # Mutation Set Search in Boolean Network Ensembles
 
-This repo benchmarks nested search algorithms (NMCS, LNMCS, NRPA, GNRPA) for identifying mutation sets that achieve the good phenotype probabilities(>0.8) in ensembles of asynchronous Boolean networks.
+This repo benchmarks nested search algorithms (NMCS, LNMCS, NRPA, GNRPA, BILNMCS) for identifying mutation sets that achieve the good phenotype probabilities(>0.8) in ensembles of asynchronous Boolean networks.
 
 ---
 
@@ -12,19 +12,17 @@ pip install -r requirements.txt
 ```
 
 ## Quick Start
- Run all search algorithms (quick test)
+ try BILNMCS algorithm (quick test)
  ```
-python -m experiments.experiment \
-  --zip_path data/bundle-exactpkn32-nocyclic-globalfps.zip \
-  --extract_dir data/tmp_ensemble \
+python3 experiments/experiment.py \
+  --algorithms BILNMCS \
   --depths 7 \
-  --ensemble_sizes 50 \
-  --timeouts 10 \
-  --n_trials 1 \
-  --out_csv results/small_test.csv \
-  --out_json results/small_test.json
+  --ensemble_sizes 1000 \
+  --timeouts 60 \
+  --n_trials 10 \
+  --levels 2 \
 ```
-📝 Runs all 4 nested search algorithms on a small ensemble in ~seconds.
+📝 Runs **Bi-Lazy Nested Search** (BILNMCS) algorithms on a big ensemble
 
 ## See the uniform simulation bound 
 ```
@@ -48,9 +46,9 @@ Search4MutationSets-BN-Ensembles/
 ## Methods Included
 > **NMCS** — Nested Monte Carlo Search  
 > **LNMCS** — Lazy NMCS
-
 > **NRPA** — Policy adaptation nested rollout  
 > **GNRPA** — NRPA with guidance/bias terms
+> **BILNMCS** — Bi-Lazy NMCS  
  
 ## 📍 
 This work was conducted at LAMSADE, Université Paris-Dauphine. A detailed manuscript and results is available upon request.
