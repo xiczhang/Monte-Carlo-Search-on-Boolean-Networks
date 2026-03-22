@@ -54,7 +54,7 @@ Search4MutationSets-BN-Ensembles/
  
  
 ## 📍 
-This work was conducted at LAMSADE, Université Paris-Dauphine. A detailed manuscript and results is available upon request.
+This work was conducted at *LAMSADE, Université Paris Dauphine - PSL*. A detailed manuscript and results is available upon request.
 
 
 
