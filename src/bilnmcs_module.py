@@ -1,4 +1,4 @@
-# lnmcs_module.py
+# bilnmcs_module.py
 import random
 import time
 
