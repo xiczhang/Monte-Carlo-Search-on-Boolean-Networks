@@ -11,8 +11,8 @@ git clone https://github.com/xiczhang/Monte-Carlo-Search-on-Boolean-Networks.git
 pip install -r requirements.txt
 ```
 
-## Quick Start
- try BILNMCS algorithm (quick test)
+## Quick Start and Reproducing 
+ try BILNMCS algorithm (quick test/ex.Scalability)
  ```
 python3 experiments/experiment.py \
   --algorithms BILNMCS \
@@ -23,6 +23,18 @@ python3 experiments/experiment.py \
   --levels 2 \
 ```
 📝 Runs **Bi-Lazy Nested Search** (BILNMCS) algorithms on a big ensemble
+
+To reproduce ex.Anytime
+ ```
+python3 experiments/experiment.py \
+  --algorithms NMCS LNMCS BILNMCS NRPA \
+  --depths 6 8 9 10 11 12 13 \
+  --ensemble_sizes 1000 \
+  --timeouts 10 20 30 \
+  --n_trials 10 \
+
+```
+📝 See the results/ex_
 
 ## See the uniform simulation bound 
 ```
